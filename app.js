@@ -13,7 +13,7 @@ var app = express();
 
 //mongoose
 var mongoose = require('mongoose');
-var uri = "mongodb+srv://longndt:LZOJXV8cjLHFfYsQ@cluster0.gobiulx.mongodb.net/gch1101";
+var uri = "mongodb+srv://namkhgch200483:nam2262002@cluster0.rq8lyed.mongodb.net/GCH1101";
 mongoose.connect(uri)
 .then(() => { console.log ("db ok")});
 

@@ -7,7 +7,8 @@ var MovieSchema = mongoose.Schema(
       director : String,
       year : Number,
       poster : String,
-      trailer : String
+      trailer : String,
+      link : String
    }
 );
 
